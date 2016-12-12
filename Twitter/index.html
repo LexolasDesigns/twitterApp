@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+
+<script src="scripts/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="scripts/myscripts.js"></script>
+</head>
+
+<body ng-app="twitterApp">
+
+	<nav>
+	<div id="title">Twitter <span>App</span></div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#celebritySearch">Celebrity</a></li>
+			<li><a href="sportsSearch">Sports</a></li>
+		</ul>
+	</nav>
+
+	<div id="viewContainer">
+		<div ng-view></div>
+	</div>
+
+
+<center><div id="logo"></div></center><br><br>
+<center><input type="search" id="search" value="Search..."></center>
+<center><input type="button" id="button" value="Enter"></center>
+
+<div>
+<div id="tweetBox"><div id="profPic">
+Profile Pic
+</div>
+<div id="username">
+UserName Here
+</div>
+Insert Tweet Here
+</div>
+</div>
+
+</body>
+</html>
