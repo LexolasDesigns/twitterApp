@@ -130,3 +130,13 @@
 		background-repeat: no-repeat;
 		
 	}
+	#viewContainer{
+		width: 800px;
+		background-color: #8BC5EA;
+	}
+	.tweet2{
+		margin-top: 400px;
+	}
+	h1{
+	 margin-left: -200px;
+	}
