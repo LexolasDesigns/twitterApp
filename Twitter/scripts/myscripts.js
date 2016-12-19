@@ -35,7 +35,7 @@ app.controller("jokesCtrl", function ($scope, $http, tweets){
 app.controller("factsCtrl", function ($scope, $http, tweets){
     // Load the JSON data with an $HTTP request
         tweets.get({
-        widgetId: '810691191901667330'
+        widgetId: '810848738717614081'
     }).success(function(data){
         $scope.feed = data;
         console.log(data);
