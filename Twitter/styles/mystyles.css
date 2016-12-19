@@ -6,12 +6,12 @@
 	}
 	nav {
 		width: 100%;
-		background-color: #444;
+		background-color: white;
 		height: 65px;
 	}
 	nav li a{
 		display: block;
-		color: white;
+		color: #444;
 		text-decoration: none;
 		text-transform: uppercase;
 		width: 100px;
@@ -21,7 +21,7 @@
 	}
 	nav li a:hover{
 		background-color: white;
-		color: #444;
+		color: #1DA0F2;
 	}
 	nav li{
 		display: inline-block;
@@ -36,12 +36,18 @@
 		margin:0px;
 		padding: 0px;
 	}
+	h5{
+	font-size: 12px;
+	margin-top: -55px;
+	margin-left: 280px;
+	}
+
 #title {
 	margin-left: 20px;
 	line-height: 65px;
 	font-size: 40px;
 	float: left;
-	color: white;
+	color: #444;
 	font-family: "Muli", helvetica;
 }
 #title span {
@@ -61,6 +67,8 @@
 		background-color: white;
 		color: #1DA0F2;
 		font-family: "Muli", helvetica;
+		margin-left: 40px;
+		border-radius: 20%;
 	}
 	#profPic{
 		width: 50px;
@@ -71,6 +79,40 @@
 	#username{
 		color: black;
 		font-size: 15px;
-		float: right;
+		/*float: right;*/
 		margin-top: -50px;
+		margin-left: 50px;
+	}
+	#tweet{
+		color: #1DA0F2;
+		font-family: "Muli", helvetica;
+		margin-left: 10px;
+		margin-top: 40px;
+	}
+	#search{
+		color: #1DA0F2;
+		width: 150px;
+		height: 40px;
+		margin-left: -50px;
+		margin-top: -250px;
+		/*position: fixed;*/
+		float: right;
+
+		
+	}
+	#button{
+		background-color: white;
+		color: #1DA0F2;
+		text-decoration: none;
+		text-shadow: none;
+		font-family: "Muli", helvetica;
+		width: 80px;
+		height: 30px;
+		font-size: 15px;
+		margin-top: -250px;
+		/*margin-left: 450px;*/
+		/*position: fixed;*/
+		float: right;
+		border-radius: 20px;
+
 	}
