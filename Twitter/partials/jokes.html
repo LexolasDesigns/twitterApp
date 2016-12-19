@@ -1,17 +1,26 @@
 <style>
 #username{
 	color: white;
+	font-size: 20px;
 }
+#tweet{
+	color: #444;
 }
+#tweetBox2{
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
 </style>
 
-<h1 style="color: white;">Search through Cat tweets!</h1>
+<center><h1 style="color: white;">Search through Cat tweets!</h1></center>
 
-<div ng-repeat="tweet in feed.tweets">
+<center><div id="cat"></div></center>
+
+<div id="tweetBox2" ng-repeat="tweet in feed.tweets">
 	<h3 id="username">{{ tweet.author.fullName }}</h3>
 	<em>{{ tweet.author.nickName }}</em>
-	{{ tweet.updated }}<br>
+	{{ tweet.updated }}
 	<h3 id="tweet">{{ tweet.text  }}</h3>
 		<img src="{{ tweet.author.avatar }}">
-		<a href="{{tweet.author.url }}">{{ tweet.author.url }}</a>
 </div>
